@@ -125,6 +125,10 @@ numMissingValues <- length(which(is.na(actdata$steps)))
 ```
 
 2. Devise a strategy for filling in all of the missing values in the dataset.
+
+Substitute the missing values with the mean values of steps. This is done using
+the impute function in Hmisc library.
+
 3. Create a new dataset that is equal to the original dataset but with the missing data filled in.
 
 
