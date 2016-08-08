@@ -192,6 +192,9 @@ timeMostSteps &lt;-  gsub(&quot;([0-9]{1,2})([0-9]{2})&quot;, &quot;\\1:\\2&quot
 <pre><code>## [1] 2304</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Devise a strategy for filling in all of the missing values in the dataset.</li>
+</ol>
+<p>Substitute the missing values with the mean values of steps. This is done using the impute function in Hmisc library.</p>
+<ol start="3" style="list-style-type: decimal">
 <li>Create a new dataset that is equal to the original dataset but with the missing data filled in.</li>
 </ol>
 <pre class="r"><code>library(Hmisc)</code></pre>
